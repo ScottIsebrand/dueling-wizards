@@ -9,7 +9,8 @@ This README.md is likely to eventually include explanations of the technologies 
 - DOM Manipulation
 - Event Handling
 
-## Features
+## Wireframe
+![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221441236-4a87f2c5-1755-4bfa-83aa-6ea800bb8aef.png)
 
 ## Approach Taken
 
