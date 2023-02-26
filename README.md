@@ -9,7 +9,7 @@ This README.md is likely to eventually include explanations of the technologies 
 - DOM Manipulation
 - Event Handling
 
-## Features
+## Wireframe
 
 ## Approach Taken
 
