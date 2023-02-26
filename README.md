@@ -8,6 +8,8 @@ This README.md is likely to eventually include explanations of the technologies 
 
 ## Wireframe
 
+![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221443118-8a83b03e-d633-4cd9-9102-a05139453411.png)
+
 ## Features
 
 ## Live Site
