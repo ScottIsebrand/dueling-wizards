@@ -6,14 +6,7 @@ This README.md is likely to eventually include explanations of the technologies 
 
 ## Motivation
 
-- DOM Manipulation
-- Event Handling
-
 ## Wireframe
-<<<<<<< HEAD
-=======
-![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221441236-4a87f2c5-1755-4bfa-83aa-6ea800bb8aef.png)
->>>>>>> 4ea811897f28115bf1d2ddb783cbf9471682d3a9
 
 ## Features
 
