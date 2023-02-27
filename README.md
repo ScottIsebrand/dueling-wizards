@@ -12,7 +12,7 @@ Using HTML, CSS, and JavaScript that manipluates the DOM, to create a simple gam
 
 ### Damage Table
 
-![dueling-wizards-damage-table](https://github.com/ScottIsebrand/dueling-wizards/blob/main/dueling-wizards-damage-table.png)
+<img width="557" alt="dueling-wizards-damage-table" src="https://user-images.githubusercontent.com/115107346/221714877-830843aa-2713-4523-a676-62a3aa547b4a.png">
 
 ## Features (Tech & Appraoch Used)
 

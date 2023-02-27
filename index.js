@@ -8,21 +8,21 @@ let roundsRemaining = 5;
 
   }
 
-  blogPosts.forEach((blogPost) => {
-    // console.log(blogPost);
-    blogPost.addEventListener('mouseenter', function (event) {
-      // event.currentTarget.classList.toggle('purple');
-      event.target.classList.toggle('purple');
-      event.target.classList.toggle('red');
-      // }
-    });
-    blogPost.addEventListener('mouseleave', function (event) {
-      // if (!event.currentTarget.classList.toggle('purple')) {
-      event.target.classList.toggle('red');
-      event.target.classList.toggle('purple');
-      // }
-    });
-  });
+  // blogPosts.forEach((blogPost) => {
+  //   // console.log(blogPost);
+  //   blogPost.addEventListener('mouseenter', function (event) {
+  //     // event.currentTarget.classList.toggle('purple');
+  //     event.target.classList.toggle('purple');
+  //     event.target.classList.toggle('red');
+  //     // }
+  //   });
+  //   blogPost.addEventListener('mouseleave', function (event) {
+  //     // if (!event.currentTarget.classList.toggle('purple')) {
+  //     event.target.classList.toggle('red');
+  //     event.target.classList.toggle('purple');
+  //     // }
+  //   });
+  // });
 
 
 // game round function
