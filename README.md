@@ -12,6 +12,8 @@ Using HTML, CSS, and JavaScript that manipluates the DOM, to create a simple gam
 
 ### Damage Table
 
+https://github.com/ScottIsebrand/dueling-wizards/blob/main/dueling-wizards-damage-table.png
+
 ## Features
 
 ## Live Site
