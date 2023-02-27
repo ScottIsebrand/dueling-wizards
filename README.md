@@ -8,7 +8,7 @@ Using HTML, CSS, and JavaScript that manipluates the DOM, to create a simple gam
 
 ## Wireframe
 
-![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221443118-8a83b03e-d633-4cd9-9102-a05139453411.png)
+![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221647595-31bc9b7c-a307-4f25-9ba6-9034ecc327d3.png)
 
 ## Features
 
