@@ -9,6 +9,55 @@
     <title>Dueling Wizards</title>
   </head>
   <body>
-    <h1>Dueling Wizards</h1>
+    <h1 class="title">Dueling Wizards</h1>
+    <div class="introduction">
+      <p>
+        You and fellow Elementalist wizard Osmanwic are fighting a duel using
+        spells, which of which harnesses the power of one of the Four Elements:
+        Water, Fire, Earth, and Wind. How much a duelist's spell weakens their
+        opponent is affected by the opponent's cast spell, as shown in the
+        Damage Table below. It is customary among Elementatists to contest each
+        other five times per duel, at which point the wizard who has been
+        weakened the most yields. When both have been equally weakened, they
+        agree to call the duel a draw.
+      </p>
+    </div>
+
+    <div class="damageTable"></div>
+
+    <div class="healthLevels">
+      <div class="playerHealth">
+        <h2>Your Health Level:</h2>
+        <p class="playerHealthLevel">16</p>
+      </div>
+      <div class="computerHealth">
+        <h2>Osmanwic Health Level:</h2>
+        <p class="computerHealthLevel">16</p>
+      </div>
+    </div>
+
+    <div class="roundsLeft">
+      <h2>"Rounds Left:</h2>
+      <p class="roundsLeftCount">5</p>
+    </div>
+
+    <div class="spellButtons">
+      <button class="water">Water</button>
+      <button class="fire">Fire</button>
+      <button class="earth">Earth</button>
+      <button class="wind">Wind</button>
+    </div>
+
+    <div>
+      <div class="roundResult"></div>
+    </div>
+
+    <div>
+      <div class="gameResult"></div>
+    </div>
+
+    <div>
+      <button class="playAgain"></button>
+    </div>
   </body>
 </html>
