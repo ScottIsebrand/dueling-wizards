@@ -1,8 +1,13 @@
-let userScore = 0;
-let computerScore = 0;
+let userHitPoints = 16;
+let computerHitPoints = 16;
+let roundsRemaining = 5;
 
-function getComputerElementChoice() {
-  const computerElementalChoices = ['earth', 'water', 'fire', 'wind'];
+// 
+function getComputerSpell () {
+  const arrayOfComputerSpells = ['earth', 'water', 'fire', 'wind'];
   const randomNumber = Math.floor(Math.random() * 4);
-  return computerElementalChoices[randomNumber];
+  const computerSpell = arrayOfComputerSpells[randomNumber];
+}
+
+
 }
