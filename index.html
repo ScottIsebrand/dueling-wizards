@@ -10,50 +10,56 @@
   </head>
   <body>
     <h1 class="title">Dueling Wizards</h1>
+    <!-- tag before the code and a -->
     <div class="introduction">
       <p>
-        You and fellow Elementalist wizard Osmanwic are fighting a duel using
-        spells, which of which harnesses the power of one of the Four Elements:
-        Water, Fire, Earth, and Wind. How much a duelist's spell weakens their
-        opponent is affected by the opponent's cast spell, as shown in the
-        Damage Table below. It is customary among Elementatists to contest each
-        other five times per duel, at which point the wizard who has been
-        weakened the most yields. When both have been equally weakened, they
-        agree to call the duel a draw.
+        You and fellow wizard Osmanwic are fighting a duel by casting spells
+        against each other that harnesses the power of the Four Elements: Water,
+        Fire, Earth, and Wind. How much a spell weakens an opponent (lowers
+        Health Level) can be affected by the spell that the opponent casts, as
+        shown in the Damage Table below. A wizards duel consists of five
+        rounds/turns, at which point the wizard who has been weakened the most
+        yields. When both have been equally weakened, they agree to call the
+        duel a draw.
       </p>
     </div>
 
     <div class="damageTable"></div>
 
     <div class="healthLevels">
-      <div class="playerHealth">
+      <div class="userHealth">
         <h2>Your Health Level:</h2>
-        <p class="playerHealthLevel">16</p>
+        <p class="userHealthLevelCount"></p>
       </div>
+
       <div class="computerHealth">
         <h2>Osmanwic Health Level:</h2>
-        <p class="computerHealthLevel">16</p>
+        <p class="computerHealthLevelCount"></p>
       </div>
     </div>
 
-    <div class="roundsLeft">
-      <h2>"Rounds Left:</h2>
-      <p class="roundsLeftCount">5</p>
+    <div class="roundsRemaining">
+      <h2>Rounds Remaining:</h2>
+      <p class="roundsRemainingCount"></p>
     </div>
 
     <div>
-      <h2 class="callToAction">Choose the Element Spell you cast!</h2>
+      <h2 class="callToAction">Choose the Element Spell to cast!</h2>
     </div>
-
+    <!-- eventListener 'click' on .spellButtons class-->
     <div class="spellButtons">
-      <button class="water">Water</button>
-      <button class="fire">Fire</button>
-      <button class="earth">Earth</button>
-      <button class="wind">Wind</button>
+      <button class="water selectSpell">Water</button>
+      <button class="fire selectSpell">Fire</button>
+      <button class="earth selectSpell">Earth</button>
+      <button class="wind selectSpell">Wind</button>
     </div>
 
     <div>
-      <div class="roundResult"></div>
+      <div class="castResult"></div>
+    </div>
+
+    <div>
+      <div class="damageResult"></div>
     </div>
 
     <div>
@@ -61,7 +67,7 @@
     </div>
 
     <div>
-      <button class="playAgain"></button>
+      <button class="playAgain">Play Again</button>
     </div>
   </body>
 </html>

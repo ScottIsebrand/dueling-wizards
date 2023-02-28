@@ -22,10 +22,10 @@ Should this be one big function with nested functions???????
 eventListener on each of four buttons
 When Player clicks button of desired Elemental Spell:
 
-1. Player selection (userElementalSpell) recorded as appropriate index position of arrayOfElementalSpells
-2. Computer Elemental Spell selected (computerElementalSpell) with Math.random() as random index position of arrayOfElementalSpells
-3. Each selection printed to DOM -- eg, `${userElementalSpell} cast by you, ${computerElementalSpell} cast by Osmanwic!`
-4. userHitPoints and computerHitPoints each reduced per logic of damage table.
+1. Player selection (userSpell) recorded as appropriate index position of arrayOfElementalSpells
+2. Computer Elemental Spell selected (computerSpell) with Math.random() as random index position of arrayOfElementalSpells
+3. Each selection printed to DOM -- eg, `${userSpell} cast by you, ${computerSpell} cast by Osmanwic!`
+4. userHealthLevel and computerHealthLevel each reduced per logic of damage table.
 5. roundsRemaining reduced by 1
 
 UI<div></div>: action line
@@ -40,3 +40,11 @@ const arrayOfComputerSpells = ['earth', 'water', 'fire', 'wind'];
 const randomNumber = Math.floor(Math.random() \* 4);
 const computerSpell = arrayOfComputerSpells[randomNumber];
 }
+
+## Future Improvements
+
+Add emoji
+Water &#127754;
+Fire &#128293;
+Earth &#127956;
+Wind &#127788;
