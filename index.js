@@ -49,11 +49,11 @@ function playRound(event) {
     damageResult.innerText = "Your Health Level and Osmanwic's decrease by 2.";
     userHealthLevel = userHealthLevel - 2;
     computerHealthLevel = computerHealthLevel - 2;
-    //   // console.log(userHealthLevel);
-    //   // console.log(computerHealthLevel);
-    //   // console.log(roundsRemaining);
+    roundsRemaining--;
   }
-  roundsRemaining--;
+  console.log(computerHealthLevel);
+  console.log(userHealthLevel);
+  console.log(roundsRemaining);
 
   // function getUserSpell() {
   //   const arrayOfUserSpells = ['water', 'fire', 'earth', 'wind'];
