@@ -8,7 +8,7 @@ Using HTML, CSS, and JavaScript that manipluates the DOM, to create a simple gam
 
 ## Wireframe
 
-![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221647595-31bc9b7c-a307-4f25-9ba6-9034ecc327d3.png)
+![dueling-wizards-wireframe](https://user-images.githubusercontent.com/115107346/221728000-8c826d97-7af5-44ab-a1d7-6f439caf2543.png)
 
 ### Damage Table
 
