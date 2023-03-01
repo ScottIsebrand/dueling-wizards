@@ -1,24 +1,31 @@
 // Set game's start/default values
-let userHealthLevel = 7;
+let userHealthLevel = 16;
 let computerHealthLevel = 16;
 let roundsRemaining = 5;
 
+document.querySelector('.playAgain').style.display = 'none';
+
 const userHealthLevelCount = document.querySelector('.userHealthLevelCount');
 userHealthLevelCount.textContent = userHealthLevel;
-console.dir(userHealthLevelCount);
+// console.dir(userHealthLevelCount);
 
 const computerHealthLevelCount = document.querySelector(
   '.computerHealthLevelCount'
 );
-computerHealthLevelCount.textContent = `${computerHealthLevel}`;
+computerHealthLevelCount.textContent = computerHealthLevel;
 
 const roundsRemainingCount = document.querySelector('.roundsRemainingCount');
-roundsRemainingCount.textContent = `${roundsRemaining}`;
+roundsRemainingCount.textContent = roundsRemaining;
 
 // Get all buttons with class of .selectSpell
-const buttons = document.querySelectorAll('.selectSpell');
+const spellButtons = document.querySelectorAll('.selectSpell');
+const castResult = document.querySelector('.castResult');
+const damageResult = document.querySelector('.damageResult');
+const gameResult = document.querySelector('.gameResult');
+const playAgainButton = document.querySelector('.playAgain');
+
 // Use loop to set .addEventListener on each .selectSpell button
-buttons.forEach((button) => {
+spellButtons.forEach((button) => {
   button.addEventListener('click', playRound);
 });
 
@@ -31,39 +38,73 @@ function playRound(event) {
   const computerSpell = arrayOfComputerSpells[randomNumber];
 
   function displayCastResult() {
-    const castResult = document.querySelector('.castResult');
     castResult.innerHTML = `You cast an Elemental ${userSpell.toUpperCase()} spell! Osmanwic casts an Elemental ${computerSpell.toUpperCase()} spell!`;
   }
   displayCastResult();
 
-  const damageResult = document.querySelector('.damageResult');
   if (userSpell === computerSpell) {
-    damageResult.innerText =
+    damageResult.textContent =
       "Your spell and Osmanwic's are of the same Elemental class. They cancel each other out and neither of you are affected by them.";
+    roundsRemaining--;
   } else if (
     (userSpell === 'Water' && computerSpell === 'Earth') ||
     (userSpell === 'Fire' && computerSpell === 'Wind') ||
     (userSpell === 'Earth' && computerSpell === 'Water') ||
     (userSpell === 'Wind' && computerSpell === 'Fire')
   ) {
-    damageResult.innerText = "Your Health Level and Osmanwic's decrease by 2.";
+    damageResult.textContent =
+      "Your Health Level and Osmanwic's both decrease by 2.";
     userHealthLevel = userHealthLevel - 2;
     computerHealthLevel = computerHealthLevel - 2;
     roundsRemaining--;
   } else if (
     (userSpell === 'Fire' && computerSpell === 'Water') ||
     (userSpell === 'Earth' && computerSpell === 'Fire') ||
-    (userSpell === 'Wind' && computerSpell === 'Earth')
+    (userSpell === 'Wind' && computerSpell === 'Earth') ||
+    (userSpell === 'Water' && computerSpell === 'Wind')
   ) {
-    damageResult.innerText =
+    damageResult.textContent =
       "Oof! Your Health Level decreases by 3 but Osmanwic's by only 1!";
     userHealthLevel = userHealthLevel - 3;
     computerHealthLevel = computerHealthLevel - 1;
     roundsRemaining--;
-    // console.log(computerHealthLevel);
-    // console.log(userHealthLevel);
-    // console.log(roundsRemaining);
+  } else if (
+    (userSpell === 'Water' && computerSpell === 'Fire') ||
+    (userSpell === 'Fire' && computerSpell === 'Earth') ||
+    (userSpell === 'Earth' && computerSpell === 'Wind') ||
+    (userSpell === 'Wind' && computerSpell === 'Water')
+  ) {
+    damageResult.textContent =
+      'Excellent! Though your Health Level decreases by 1, Osmanwic decreases by 3!';
+    userHealthLevel = userHealthLevel - 1;
+    computerHealthLevel = computerHealthLevel - 3;
+    roundsRemaining--;
   }
+
+  userHealthLevelCount.textContent = userHealthLevel;
+  computerHealthLevelCount.textContent = computerHealthLevel;
+  roundsRemainingCount.textContent = roundsRemaining;
+
+  // console.log(userHealthLevel);
+  // console.log(computerHealthLevel);
+  // console.log(roundsRemaining);
+
+  if (roundsRemaining === 0) {
+    castResult.textContent = '';
+    damageResult.textContent = '';
+
+    if (userHealthLevel > computerHealthLevel) {
+      gameResult.textContent = 'You win the duel!';
+    } else if (userHealthLevel < computerHealthLevel) {
+      gameResult.textContent = 'The duel ends, and Osmanwic has won, alas!';
+    } else if (userHealthLevel === computerHealthLevel) {
+      gameResult.textContent =
+        "The duel ends. It's hard to tell if you or Osmanwic remains stronger. The duel is a draw.";
+    }
+
+    document.querySelector('.playAgain').style.display = '';
+  }
+  // **********************>>>>>>> ADD EVENT LISTENER TO .playAgainButton
 
   // function getUserSpell() {
   //   const arrayOfUserSpells = ['water', 'fire', 'earth', 'wind'];
