@@ -104,7 +104,8 @@ function playRound(event) {
 
     document.querySelector('.playAgain').style.display = '';
   }
-  // **********************>>>>>>> ADD EVENT LISTENER TO .playAgainButton
+  // ************ ADD EVENT LISTENER TO .playAgainButton
+  // ************ Can I make <p class="userHealthLevelCount"></p> be inline with <h2> or make it a span in <h2> that changes.
 
   // function getUserSpell() {
   //   const arrayOfUserSpells = ['water', 'fire', 'earth', 'wind'];

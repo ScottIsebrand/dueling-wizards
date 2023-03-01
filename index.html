@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap"
+      rel="stylesheet"
+    />
     <script src="./index.js" defer></script>
     <title>Dueling Wizards</title>
   </head>
@@ -15,16 +21,25 @@
       <p>
         You and fellow wizard Osmanwic are fighting a duel by casting spells
         against each other that harnesses the power of the Four Elements: Water,
-        Fire, Earth, and Wind. How much a spell weakens an opponent (lowers
-        their Health Level) can be affected by the spell that the opponent
-        casts, as shown in the Damage Table below. A wizards duel consists of
-        five rounds, after which the wizard who has been weakened the most
-        yields. When both have been equally weakened, they agree to call the
-        duel a draw.
+        Fire, Earth, and Wind.
+        <a href="dueling-wizards-damage-table.png" target="”_blank”"
+          >The Damage Table</a
+        >
+        below shows how much duelists' Health Levels decrease depending on the
+        spells cast. How much a spell weakens an opponent (lowers their Health
+        Level) depends on part on the spell that the opponent casts, as shown
+        inA wizards duel consists of five rounds, after which the wizard who has
+        been weakened the most yields. When both have been equally weakened,
+        they agree to call the duel a draw.
       </p>
     </div>
+    <!-- eventListener 'click' on .spellButtons class-->
 
-    <div class="damageTable"></div>
+    <img
+      class="damageTable"
+      src="dueling-wizards-damage-table.png"
+      alt="Damage table for Dueling Wizards game"
+    />
 
     <div class="healthLevels">
       <div class="userHealth">
@@ -46,7 +61,7 @@
     <div>
       <h2 class="callToAction">Choose the Element Spell to cast!</h2>
     </div>
-    <!-- eventListener 'click' on .spellButtons class-->
+
     <div class="spellButtons">
       <button class="water selectSpell">Water</button>
       <button class="fire selectSpell">Fire</button>

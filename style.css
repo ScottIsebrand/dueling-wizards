@@ -1,3 +1,96 @@
+html {
+  margin: 5px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* display: inline-block; 
+    float parent and child elements
+    */
 body {
   text-align: center;
+  background-image: url('https://live.staticflickr.com/3165/2558160805_d8cc4d741b_h.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1,
+h2 {
+  box-sizing: border-box;
+  font-family: 'Balthazar', serif;
+  size: 1rem;
+}
+
+/* h2 {
+  margin: 1px;
+} */
+
+.introduction {
+  font-size: 1.1rem;
+}
+
+.damageTable {
+  max-width: 50%;
+  /* float: ; */
+}
+
+.healthLevels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+}
+
+.userHealthLevelCount {
+  display: inline;
+  /* margin: 1px; */
+}
+
+.water {
+  color: blue;
+  background-color: #8e9eac;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.fire {
+  color: red;
+  background-color: #8e9eac;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.earth {
+  color: brown;
+  background-color: #8e9eac;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.wind {
+  color: white;
+  background-color: #8e9eac;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.castResult {
+  animation: fadeIn 8s;
+  font-size: 1.3rem;
+}
+
+.gameResult {
+  font-size: 1.5rem;
+  font-weight: 700;
 }

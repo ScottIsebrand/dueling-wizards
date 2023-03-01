@@ -1,6 +1,6 @@
 # Dueling Wizards
 
-This is a variation of a basic computer game version of the hand game Rock, Paper, Scissors (a.k.a. Rochambeau, sometimes as Stone, Paper, Scissors). The headings below are placeholders and subject to change.
+This is a variation of a basic computer game version of the hand game Rock, Paper, Scissors (also known as Rochambeau or as Stone, Paper, Scissors).
 
 ## Motivation
 
@@ -16,10 +16,30 @@ Using HTML, CSS, and JavaScript that manipluates the DOM, to create a simple gam
 
 ## Features (Tech & Appraoch Used)
 
+Used `document.querySelector('.playAgain').style.display = 'none';` to make Play Again button hidden as its default.
+
 ## Live Site
 
 ## Installation Instructions
 
-## Unsolved Problems
+## Possible Game Improvements
+
+- [] Add an alternative game-ends condition of when player or Computer's Health Level reaches `<= 0`, and increase default Health Levels and default roundsRemaining, so that player Computer death is possible, with the appropriate alternative gameResult text printed to the DOM.
+- [] Enhance the styling. Eg,
+  - adding emoji or animated GIFs for the Elemental categories;
+  - adding publicly available sound effects (if available) for each spellButton 'click' and computerSpell selection (eg, a _whoosh_ sound for Wind, an ocean wave sound for Water, etc.)
+  - replace Damage Table image file with a dynamic table, eg, the table cells corresponding to the round's `userSpell` and, after a slight delay, `computerSpell` change background color, as does, after a second slight delay, the appropriate cell that states the damage.
+- [] Add a Spell Conduit choice; user selects Scroll, Wand, Staff, or Amulet, which is compared against the computer's randomly selected Conduit and Health Points deducted in accordance with a Conduit Power Table. Default Health Levels should be raised since the potential total damage per round will be a larger number by introducing the Spell Conduit choice. Player and computer Conduit choices and damage would need to be appear in the DOM.
+- [] Add a way for the player to choose when to drink a potion that increase Health Level. (Possibly randomize the Health Level increase as 1, 2, or 3 Health Level points.) Randomize computer decision as to whether or not, in each round, the computer drinks the potion.
 
 ## Resources / Credits
+
+**Fonts**: [Balthazar](https://fonts.google.com/specimen/Balthazar). Google Fonts.
+
+**Background Image**: Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons (4.0) license](https://creativecommons.org/licenses/by/4.0/).) GeeksForGeeks.org.
+
+### Code
+
+**Basic HTML structure (in part)**: "[Rock, Paper and Scissor Game using Javascript](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)." GeeksForGeeks.org. Accessed February 26, 2023.
+
+**To hide Play Again button**: Rahul Uniyal. "[Hide elements in HTML using display property](https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)." GeeksForGeeks.org. Access February 28, 2023.
