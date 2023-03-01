@@ -12,7 +12,7 @@ Using HTML, CSS, and JavaScript that manipluates the DOM, to create a simple gam
 
 ### Damage Table
 
-![dueling-wizards-damage-table](https://user-images.githubusercontent.com/115107346/221980506-e1e39adc-44a1-4861-a7f2-86212e0372cd.png)
+![dueling-wizards-damage-table](https://user-images.githubusercontent.com/115107346/222015178-ae5a0ff5-26e4-425b-8774-5df4d043b8e3.png)
 
 ## Features (Tech & Appraoch Used)
 

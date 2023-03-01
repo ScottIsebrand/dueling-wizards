@@ -1,17 +1,18 @@
 // Set game's start/default values
-let userHealthLevel = 16;
+let userHealthLevel = 7;
 let computerHealthLevel = 16;
 let roundsRemaining = 5;
 
-let userHealthLevelCount = document.querySelector('.userHealthLevelCount');
-userHealthLevelCount.textContent = `${userHealthLevel}`;
+const userHealthLevelCount = document.querySelector('.userHealthLevelCount');
+userHealthLevelCount.textContent = userHealthLevel;
+console.dir(userHealthLevelCount);
 
-let computerHealthLevelCount = document.querySelector(
+const computerHealthLevelCount = document.querySelector(
   '.computerHealthLevelCount'
 );
 computerHealthLevelCount.textContent = `${computerHealthLevel}`;
 
-let roundsRemainingCount = document.querySelector('.roundsRemainingCount');
+const roundsRemainingCount = document.querySelector('.roundsRemainingCount');
 roundsRemainingCount.textContent = `${roundsRemaining}`;
 
 // Get all buttons with class of .selectSpell
@@ -23,7 +24,6 @@ buttons.forEach((button) => {
 
 // Create playRound function to be called each time user clicks a .selectSpell button except if roundsRemaining === 0.
 function playRound(event) {
-  // console.dir(event.target);
   const userSpell = event.target.textContent;
 
   const arrayOfComputerSpells = ['Water', 'Fire', 'Earth', 'Wind'];
@@ -50,10 +50,20 @@ function playRound(event) {
     userHealthLevel = userHealthLevel - 2;
     computerHealthLevel = computerHealthLevel - 2;
     roundsRemaining--;
+  } else if (
+    (userSpell === 'Fire' && computerSpell === 'Water') ||
+    (userSpell === 'Earth' && computerSpell === 'Fire') ||
+    (userSpell === 'Wind' && computerSpell === 'Earth')
+  ) {
+    damageResult.innerText =
+      "Oof! Your Health Level decreases by 3 but Osmanwic's by only 1!";
+    userHealthLevel = userHealthLevel - 3;
+    computerHealthLevel = computerHealthLevel - 1;
+    roundsRemaining--;
+    // console.log(computerHealthLevel);
+    // console.log(userHealthLevel);
+    // console.log(roundsRemaining);
   }
-  console.log(computerHealthLevel);
-  console.log(userHealthLevel);
-  console.log(roundsRemaining);
 
   // function getUserSpell() {
   //   const arrayOfUserSpells = ['water', 'fire', 'earth', 'wind'];
