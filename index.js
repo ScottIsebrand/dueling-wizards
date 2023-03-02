@@ -3,7 +3,7 @@ let userHealthLevel = 16;
 let computerHealthLevel = 16;
 let roundsRemaining = 5;
 
-document.querySelector('.playAgain').style.display = 'none';
+document.querySelector('.playAgainButton').style.display = 'none';
 
 const userHealthLevelCount = document.querySelector('.userHealthLevelCount');
 userHealthLevelCount.textContent = userHealthLevel;
@@ -16,7 +16,6 @@ computerHealthLevelCount.textContent = computerHealthLevel;
 
 const roundsRemainingCount = document.querySelector('.roundsRemainingCount');
 roundsRemainingCount.textContent = roundsRemaining;
-
 // Get all buttons with class of .selectSpell
 const spellButtons = document.querySelectorAll('.selectSpell');
 const castResult = document.querySelector('.castResult');
@@ -25,6 +24,7 @@ const gameResult = document.querySelector('.gameResult');
 const playAgainButton = document.querySelector('.playAgain');
 
 // Use loop to set .addEventListener on each .selectSpell button
+
 spellButtons.forEach((button) => {
   button.addEventListener('click', playRound);
 });
@@ -94,15 +94,25 @@ function playRound(event) {
     damageResult.textContent = '';
 
     if (userHealthLevel > computerHealthLevel) {
-      gameResult.textContent = 'You win the duel!';
+      gameResult.textContent =
+        'You emerge from the duel stronger than Osmanwic! You win the duel!';
     } else if (userHealthLevel < computerHealthLevel) {
-      gameResult.textContent = 'The duel ends, and Osmanwic has won, alas!';
+      gameResult.textContent =
+        'The duel ends with you more weakened than Osmanwic! Alas, Osmanwic has won the duel.';
     } else if (userHealthLevel === computerHealthLevel) {
       gameResult.textContent =
-        "The duel ends. It's hard to tell if you or Osmanwic remains stronger. The duel is a draw.";
+        "The duel ends. You and Osmanwic can't decide who remains stronger. You both agree to call the duel a draw.";
     }
+    const playAgainButton = document.querySelector('.playAgainButton');
+    playAgainButton.addEventListener('click', function (event) {
+      window.location.reload();
+    });
 
-    document.querySelector('.playAgain').style.display = '';
+    document.querySelector('.playAgainButton').style.display = '';
+    spellButtons.forEach((button) => {
+      button.style.display = 'none';
+      // button.disabled = true;
+    });
   }
   // ************ ADD EVENT LISTENER TO .playAgainButton
   // ************ Can I make <p class="userHealthLevelCount"></p> be inline with <h2> or make it a span in <h2> that changes.

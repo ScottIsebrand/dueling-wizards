@@ -26,11 +26,9 @@
           >The Damage Table</a
         >
         below shows how much duelists' Health Levels decrease depending on the
-        spells cast. How much a spell weakens an opponent (lowers their Health
-        Level) depends on part on the spell that the opponent casts, as shown
-        inA wizards duel consists of five rounds, after which the wizard who has
-        been weakened the most yields. When both have been equally weakened,
-        they agree to call the duel a draw.
+        spells cast. A wizards duel consists of five rounds, after which the
+        wizard who has been weakened the most yields. When both have been
+        equally weakened, they agree to call the duel a draw.
       </p>
     </div>
     <!-- eventListener 'click' on .spellButtons class-->
@@ -43,19 +41,19 @@
 
     <div class="healthLevels">
       <div class="userHealth">
-        <h2>Your Health Level:</h2>
-        <p class="userHealthLevelCount"></p>
+        <h2>Your Health Level: <span class="userHealthLevelCount"></span></h2>
       </div>
 
       <div class="computerHealth">
-        <h2>Osmanwic Health Level:</h2>
-        <p class="computerHealthLevelCount"></p>
+        <h2>
+          Osmanwic Health Level: <span class="computerHealthLevelCount"></span>
+        </h2>
+        <p></p>
       </div>
     </div>
 
     <div class="roundsRemaining">
-      <h2>Rounds Remaining:</h2>
-      <p class="roundsRemainingCount"></p>
+      <h2>Rounds Remaining: <span class="roundsRemainingCount"></span></h2>
     </div>
 
     <div>
@@ -63,26 +61,19 @@
     </div>
 
     <div class="spellButtons">
-      <button class="water selectSpell">Water</button>
-      <button class="fire selectSpell">Fire</button>
-      <button class="earth selectSpell">Earth</button>
-      <button class="wind selectSpell">Wind</button>
+      <button class="waterButton selectSpell">Water</button>
+      <button class="fireButton selectSpell">Fire</button>
+      <button class="earthButton selectSpell">Earth</button>
+      <button class="windButton selectSpell">Wind</button>
     </div>
-
-    <div>
+    <div class="results">
+      <div class="gameResult"></div>
       <div class="castResult"></div>
-    </div>
-
-    <div>
       <div class="damageResult"></div>
     </div>
 
     <div>
-      <div class="gameResult"></div>
-    </div>
-
-    <div>
-      <button class="playAgain">Play Again</button>
+      <button class="playAgainButton">Play Again</button>
     </div>
   </body>
 </html>

@@ -24,6 +24,7 @@ Used `document.querySelector('.playAgain').style.display = 'none';` to make Play
 
 ## Possible Game Improvements
 
+- [] When the game ends (`roundsRemaining === 0`), set (reduce) opacity property of .spellButtons to ~0.6 to show the buttons are disabled.
 - [] Add an alternative game-ends condition of when player or Computer's Health Level reaches `<= 0`, and increase default Health Levels and default roundsRemaining, so that player Computer death is possible, with the appropriate alternative gameResult text printed to the DOM.
 - [] Enhance the styling. Eg,
   - adding emoji or animated GIFs for the Elemental categories;
@@ -40,6 +41,8 @@ Used `document.querySelector('.playAgain').style.display = 'none';` to make Play
 
 ### Code
 
-**Basic HTML structure (in part)**: "[Rock, Paper and Scissor Game using Javascript](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)." GeeksForGeeks.org. Accessed February 26, 2023.
+**Basic HTML layout**: Pritish Nagpal. "[Rock, Paper and Scissor Game using Javascript](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)." GeeksForGeeks.org. Accessed February 26, 2023.
 
-**To hide Play Again button**: Rahul Uniyal. "[Hide elements in HTML using display property](https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)." GeeksForGeeks.org. Access February 28, 2023.
+**To hide buttons**: Rahul Uniyal. "[Hide elements in HTML using display property](https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)." GeeksForGeeks.org. Accessed February 28, 2023.
+
+**To reload a page**: gianebao. [Answer to "How to reload a page using JavaScript"](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript?noredirect=1&lq=1). Stack Overflow. Accessed March 2, 2023.

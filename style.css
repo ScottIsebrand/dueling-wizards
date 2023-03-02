@@ -21,11 +21,8 @@ h2 {
   box-sizing: border-box;
   font-family: 'Balthazar', serif;
   size: 1rem;
-}
-
-/* h2 {
   margin: 1px;
-} */
+}
 
 .introduction {
   font-size: 1.1rem;
@@ -44,45 +41,52 @@ h2 {
 }
 
 .userHealthLevelCount {
-  display: inline;
-  /* margin: 1px; */
-}
-
-.water {
-  color: blue;
-  background-color: #8e9eac;
-  border-radius: 4px;
-  font-size: 20px;
-}
-
-.fire {
   color: red;
-  background-color: #8e9eac;
+}
+.computerHealthLevelCount {
+  color: red;
+}
+
+.roundsRemainingCount {
+  color: blue;
+}
+
+.callToAction {
+  margin: 0.5rem 0 0 0;
+}
+
+.spellButtons {
+  margin: 0.7rem 0 1.1rem;
+}
+
+.waterButton,
+.fireButton,
+.earthButton,
+.windButton {
+  background-color: #a1b1bf;
   border-radius: 4px;
   font-size: 20px;
 }
-
-.earth {
-  color: brown;
-  background-color: #8e9eac;
-  border-radius: 4px;
-  font-size: 20px;
+.waterButton {
+  color: blue;
 }
 
-.wind {
+.fireButton {
+  color: red;
+}
+
+.earthButton {
+  color: #128914;
+}
+
+.windButton {
   color: white;
-  background-color: #8e9eac;
-  border-radius: 4px;
-  font-size: 20px;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.results {
+  display: grid;
+  gap: 10px;
+  min-height: 70px;
 }
 
 .castResult {
@@ -90,7 +94,16 @@ h2 {
   font-size: 1.3rem;
 }
 
+.damageResult {
+  font-size: 1.3rem;
+}
+
 .gameResult {
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.playAgainButton {
+  border-radius: 15px;
+  font-size: 25px;
 }
