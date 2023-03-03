@@ -76,10 +76,15 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 **Background Image**:
 ![Flickr](https://img.shields.io/static/v1?style=for-the-badge&message=Flickr&color=0063DC&logo=Flickr&logoColor=FFFFFF&label=)
 
-Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons (4.0) license](https://creativecommons.org/licenses/by/4.0/).) Accessed February 28, 2023
+Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/).) Accessed February 28, 2023
 
-**Wireframe**:
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+**Sound Effects**:
+**[Freesound.org](https://freesound.org/browse/) [![Creative Commons 4.0]](https://freesound.org/help/faq/#licenses)**
+
+- [klankbeeld](http://freesound.org/people/klankbeeld/). [beach North Sea](https://freesound.org/people/klankbeeld/sounds/393584/#).
+- [qubodup](https://freesound.org/people/qubodup/). [Fire Magic](https://freesound.org/people/qubodup/sounds/442872/).
+- [magnuswaker](https://freesound.org/people/magnuswaker/). [Concrete SMASH 2](https://freesound.org/people/magnuswaker/sounds/522099/).
+- [plagasul](https://freesound.org/people/plagasul/). [maxxbasswind.wav](https://freesound.org/people/plagasul/sounds/611/).
 
 ### Code
 
@@ -92,6 +97,10 @@ Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/255
 ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
 
 **To reload a page**: gianebao. [Answer to "How to reload a page using JavaScript"](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript?noredirect=1&lq=1). Stack Overflow. Accessed March 2, 2023.
+
+### Wireframe
+
+- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ### README.md:
 
