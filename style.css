@@ -62,7 +62,7 @@ h2 {
 .waterButton,
 .fireButton,
 .earthButton,
-.windButton {
+.airButton {
   background-color: #a1b1bf;
   border-radius: 4px;
   font-size: 20px;
@@ -79,7 +79,7 @@ h2 {
   color: #128914;
 }
 
-.windButton {
+.airButton {
   color: white;
 }
 

@@ -48,3 +48,9 @@ Water &#127754;
 Fire &#128293;
 Earth &#127956;
 Wind &#127788;
+
+Sounds effects
+Water https://freesound.org/people/klankbeeld/sounds/393584/#
+Fire https://freesound.org/people/qubodup/sounds/442872/
+Earth https://freesound.org/people/magnuswaker/sounds/522099/
+Wind https://freesound.org/people/plagasul/sounds/611/

@@ -34,11 +34,11 @@ Using HTML, CSS, and JavaScript, to create a simple game in the DOM that is two 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Appraoch Used
+## Approach Used
 
 First in the global scope, the game's default values are assigned to variables--ie, for the player's and computer's Health Levels (16 each) and the number of rounds remaining (5)--, variables are declared for HTML elements that will be manipulated, event listenrs are added to the Spell Buttons, and the Play Again button is hidden with `document.querySelector('.playAgainButton').style.display = 'none';`.
 
-Game play is all within a single function. The Play Again button's event listener is added within that function. Also within the function is the condition statement to end the game,: ` if (roundsRemaining === 0)` and relevant end-of-game code, eg, making making the Play Again button appear.
+Game play is all within a single function. The Play Again button's event listener is added within that function. Also within the function is the condition statement to end the game, ` if (roundsRemaining === 0)` and relevant end-of-game code, eg, making making the Play Again button appear.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,7 +61,7 @@ Game play is all within a single function. The Play Again button's event listene
 
 ## Contributions
 
-Suggestions for enchancements are welcome! Simply open an issue with the tag "enhancement" or fork the repo and create a pull request. Please give the project a star...I would be very grateful! Thank you!
+Suggestions for enchancements are welcome! Simply open an issue with the tag "enhancement". Please give the project a star...I would be very grateful! Thank you!
 
 ## Contact
 
@@ -73,9 +73,13 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 
 **Fonts**: [Balthazar](https://fonts.google.com/specimen/Balthazar). Google Fonts. Accessed February 28, 2023.
 
+**Background Image**:
 ![Flickr](https://img.shields.io/static/v1?style=for-the-badge&message=Flickr&color=0063DC&logo=Flickr&logoColor=FFFFFF&label=)
 
-**Background Image**: Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons (4.0) license](https://creativecommons.org/licenses/by/4.0/).) GeeksForGeeks.org. Accessed February 28, 2023.
+Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons (4.0) license](https://creativecommons.org/licenses/by/4.0/).) Accessed February 28, 2023
+
+**Wireframe**:
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Code
 
@@ -89,9 +93,13 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 
 **To reload a page**: gianebao. [Answer to "How to reload a page using JavaScript"](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript?noredirect=1&lq=1). Stack Overflow. Accessed March 2, 2023.
 
-### Additional
+### README.md:
 
-**README.md badges**:
+**Template**:
+
+- Othneil Drew. "[Best-README-Template](https://github.com/othneildrew/Best-README-Template)." GitHub.com. Accessed March 2, 2023.
+
+**Badges**:
 
 - Ileriayo Adebiyi. "[Markdown Badges](https://github.com/Ileriayo/markdown-badges)." GitHub.com. Accessed March 2, 2023.
 - Shunsuke Mano. [Shields with icons](https://github.com/progfay/shields-with-icon/blob/master/Snippets.md). GitHub.com. Accessed March 2, 2023.
