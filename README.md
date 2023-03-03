@@ -2,7 +2,7 @@
 
 # Dueling Wizards
 
-This is a variation of a basic computer game version of the hand game Rock, Paper, Scissors (also known as Rochambeau or as Stone, Paper, Scissors).
+This is a variation of a basic, computer-game version of the hand game Rock, Paper, Scissors (also known as Rochambeau or as Stone, Paper, Scissors).
 
 ## Motivation
 
@@ -41,6 +41,8 @@ Game play is all within a single function. The Play Again button's event listene
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Site
+
+[Dueling Wizards](https://scottisebrand.github.io/dueling-wizards/), (URL: https://scottisebrand.github.io/dueling-wizards/)
 
 ## Installation Instructions
 
