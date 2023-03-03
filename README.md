@@ -56,7 +56,7 @@ Game play is all within a single function. The Play Again button's event listene
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contributions
+## Contribute
 
 Suggestions for enchancements are welcome! Simply open an issue with the tag "enhancement". Please give the project a star...I would be very grateful! Thank you!
 
@@ -74,7 +74,9 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 
 ### Design
 
-**Fonts**: [Balthazar](https://fonts.google.com/specimen/Balthazar). Google Fonts. Accessed February 28, 2023.
+**Fonts**:
+
+- [Balthazar](https://fonts.google.com/specimen/Balthazar). Google Fonts. Accessed February 28, 2023.
 
 **Background Image**:
 
@@ -92,6 +94,10 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 - [plagasul](https://freesound.org/people/plagasul/). [maxxbasswind.wav](https://freesound.org/people/plagasul/sounds/611/).
 
 ### Code
+
+![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)
+
+- **Adding audio**: Chris Ferdinandi. "[How to play a sound with JavaScript](https://gomakethings.com/how-to-play-a-sound-with-javascript/)." Go Make Things (blog). Accessed March 2, 2023
 
 ![GeeksForGeeks](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)
 
