@@ -6,9 +6,7 @@ This is a variation of a basic computer game version of the hand game Rock, Pape
 
 ## Motivation
 
-Using HTML, CSS, and JavaScript, to create a simple game in the DOM that is two player (player/user versus the computer), has a win state and lose state, and includes multiple rounds.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Using HTML, CSS, and JavaScript, to create a simple game in the DOM that is two player (the player versus the computer), has a win state and lose state, and includes multiple rounds.
 
 ## Wireframe
 
@@ -36,7 +34,7 @@ Using HTML, CSS, and JavaScript, to create a simple game in the DOM that is two 
 
 ## Approach Used
 
-First in the global scope, the game's default values are assigned to variables--ie, for the player's and computer's Health Levels (16 each) and the number of rounds remaining (5)--, variables are declared for HTML elements that will be manipulated, event listenrs are added to the Spell Buttons, and the Play Again button is hidden with `document.querySelector('.playAgainButton').style.display = 'none';`.
+First in the global scope, the game's default values are assigned to variables--ie, for the Player's and Computer's Health Levels (16 each) and the number of rounds remaining (5)--, variables are declared for HTML elements that will be manipulated, event listenrs are added to the Spell Buttons, and the Play Again button is hidden with `document.querySelector('.playAgainButton').style.display = 'none';`.
 
 Game play is all within a single function. The Play Again button's event listener is added within that function. Also within the function is the condition statement to end the game, ` if (roundsRemaining === 0)` and relevant end-of-game code, eg, making making the Play Again button appear.
 
@@ -48,14 +46,13 @@ Game play is all within a single function. The Play Again button's event listene
 
 ## Enhancements Roadmap
 
-- [ ] When the game ends (`roundsRemaining === 0`), set (reduce) opacity property of .spellButtons to ~0.6 to show the buttons are disabled.
-- [ ] Add an alternative game-ends condition of when player or Computer's Health Level reaches `<= 0`, and increase default Health Levels and default roundsRemaining, so that player Computer death is possible, with the appropriate alternative gameResult text printed to the DOM.
+- [ ] When the game ends, reduce opacity property of Spell Buttons to ~0.6 to show the buttons are disabled.
+- [ ] Add an alternative game-ends condition of when Player or Computer's Health Level is `<= 0`, and increase default Health Levels and default Rounds Remaining, so that Computer or Player death is possible, with the appropriate alternative gameResult text printed to the DOM.
 - [ ] Enhance the styling. Eg,
-  - adding emoji or animated GIFs for the Elemental categories;
-  - adding publicly available sound effects (if available) for each spellButton 'click' and computerSpell selection (eg, a _whoosh_ sound for Wind, an ocean wave sound for Water, etc.)
-  - replace Damage Table image file with a dynamic table, eg, the table cells corresponding to the round's `userSpell` and, after a slight delay, `computerSpell` change background color, as does, after a second slight delay, the appropriate cell that states the damage.
-- [ ] Add a Spell Conduit choice; user selects Scroll, Wand, Staff, or Amulet, which is compared against the computer's randomly selected Conduit and Health Points deducted in accordance with a Conduit Power Table. Default Health Levels should be raised since the potential total damage per round will be a larger number by introducing the Spell Conduit choice. Player and computer Conduit choices and damage would need to be appear in the DOM.
-- [ ] Add a way for the player to choose when to drink a potion that increase Health Level. (Possibly randomize the Health Level increase as 1, 2, or 3 Health Level points.) Randomize computer decision as to whether or not, in each round, the computer drinks the potion.
+  - [ ] adding emoji or animated GIFs for the Elemental categories;
+  - [ ] replace Damage Table image file with a dynamic table, eg, the table cells corresponding to the round's `userSpell` and, after a slight delay, `computerSpell` change background color, as does, after a second slight delay, the appropriate cell that states the damage.
+- [ ] Add a Spell Conduit choice; user selects Scroll, Wand, Staff, or Amulet, which is compared against the Computer's randomly selected Conduit and Health Points deducted in accordance with a Conduit Power Table. Default Health Levels should be raised since the potential total damage per round will be a larger number by introducing the Spell Conduit choice. Player and Computer Conduit choices and damage would need to appear in the DOM.
+- [ ] Add a way for the Player to choose when to drink a potion that increase Health Level. (Possibly randomize the Health Level increase as 1, 2, or 3 Health Level points.) Randomize Computer decision as to whether or not, in each round, the Computer drinks the potion.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,11 +60,15 @@ Game play is all within a single function. The Play Again button's event listene
 
 Suggestions for enchancements are welcome! Simply open an issue with the tag "enhancement". Please give the project a star...I would be very grateful! Thank you!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contact
 
 Scott Isebrand - [@isebrand](https://www.instagram.com/isebrand/)
 
 Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.com/ScottIsebrand/dueling-wizards)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgements/Credits
 
