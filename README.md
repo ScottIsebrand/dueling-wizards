@@ -71,14 +71,18 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 
 ## Acknowledgements/Credits
 
+### Design
+
 **Fonts**: [Balthazar](https://fonts.google.com/specimen/Balthazar). Google Fonts. Accessed February 28, 2023.
 
 **Background Image**:
+
 ![Flickr](https://img.shields.io/static/v1?style=for-the-badge&message=Flickr&color=0063DC&logo=Flickr&logoColor=FFFFFF&label=)
 
-Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/).) Accessed February 28, 2023
+- Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/2558160805). Flickr. ([Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/).) Accessed February 28, 2023
 
-**Sound Effects**:
+### Audio
+
 **[Freesound.org](https://freesound.org/browse/) [![Creative Commons 4.0]](https://freesound.org/help/faq/#licenses)**
 
 - [klankbeeld](http://freesound.org/people/klankbeeld/). [beach North Sea](https://freesound.org/people/klankbeeld/sounds/393584/#).
@@ -90,17 +94,17 @@ Renee Robinson. [Paper Texture](https://www.flickr.com/photos/playingwithpsp/255
 
 ![GeeksForGeeks](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)
 
-**Basic HTML layout**: Pritish Nagpal. "[Rock, Paper and Scissor Game using Javascript](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)." GeeksForGeeks.org. Accessed February 26, 2023.
+- **Basic HTML layout**: Pritish Nagpal. "[Rock, Paper and Scissor Game using Javascript](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)." GeeksForGeeks.org. Accessed February 26, 2023.
 
-**To hide buttons**: Rahul Uniyal. "[Hide elements in HTML using display property](https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)." GeeksForGeeks.org. Accessed February 28, 2023.
+- **To hide buttons**: Rahul Uniyal. "[Hide elements in HTML using display property](https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)." GeeksForGeeks.org. Accessed February 28, 2023.
 
 ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
 
-**To reload a page**: gianebao. [Answer to "How to reload a page using JavaScript"](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript?noredirect=1&lq=1). Stack Overflow. Accessed March 2, 2023.
+- **To reload a page**: gianebao. [Answer to "How to reload a page using JavaScript"](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript?noredirect=1&lq=1). Stack Overflow. Accessed March 2, 2023.
 
 ### Wireframe
 
-- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ### README.md:
 
