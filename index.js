@@ -39,7 +39,6 @@ spellButtons.forEach((button) => {
 // Function for a round of the game; it is called each time user clicks a .selectSpell button, except if roundsRemaining === 0.
 function playRound(event) {
   const userSpell = event.target.textContent;
-  const userSpellColor = event.target.style.color;
 
   const arrayOfComputerSpells = ['Water', 'Fire', 'Earth', 'Air'];
   const randomNumber = Math.floor(Math.random() * 4);

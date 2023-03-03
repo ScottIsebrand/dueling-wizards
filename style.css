@@ -51,10 +51,10 @@ h2 {
 }
 
 .userHealthLevelCount {
-  color: orange;
+  color: #ff6600;
 }
 .computerHealthLevelCount {
-  color: orange;
+  color: #ff6600;
 }
 
 .callToAction {
@@ -74,24 +74,25 @@ h2 {
 .fireButton,
 .earthButton,
 .airButton {
-  background-color: #a1b1bf;
+  /* background-color: #a1b1bf; */
+  color: black;
   border-radius: 0.4rem;
   font-size: 2.4rem;
 }
 .waterButton {
-  color: blue;
+  background-color: rgb(158, 189, 232);
 }
 
 .fireButton {
-  color: red;
+  background-color: rgb(222, 157, 157);
 }
 
 .earthButton {
-  color: #128914;
+  background-color: #ba9c66;
 }
 
 .airButton {
-  color: white;
+  background-color: white;
 }
 
 .results {
@@ -111,6 +112,7 @@ h2 {
 .gameResult {
   font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .playAgainButton {

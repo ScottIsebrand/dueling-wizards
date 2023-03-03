@@ -2,7 +2,7 @@
 
 # Dueling Wizards
 
-This is a variation of a basic, computer-game version of the hand game Rock, Paper, Scissors (also known as Rochambeau or as Stone, Paper, Scissors).
+This is a variation of a basic, computer-game version of the hand game Rock, Paper, Scissors (also known as Rochambeau or as Stone, Paper, Scissors). The wizard name Osmanwic referenced in the game's introduction paragraph is a partial anagram of Mac Win OS.
 
 ## Motivation
 
@@ -43,11 +43,6 @@ Game play is all within a single function. The Play Again button's event listene
 ## Live Site
 
 [Dueling Wizards](https://scottisebrand.github.io/dueling-wizards/)
-
-test of HTML:
-<a href="https://scottisebrand.github.io/dueling-wizards/" target="_blank">Test of link</a>
-
-## Installation Instructions
 
 ## Enhancements Roadmap
 
