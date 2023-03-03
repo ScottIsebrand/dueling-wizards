@@ -50,7 +50,7 @@ Earth &#127956;
 Wind &#127788;
 
 Sounds effects
-Water https://freesound.org/people/klankbeeld/sounds/393584/#
-Fire https://freesound.org/people/qubodup/sounds/442872/
-Earth https://freesound.org/people/magnuswaker/sounds/522099/
-Wind https://freesound.org/people/plagasul/sounds/611/
+[klankbeeld](http://freesound.org/people/klankbeeld/). [beach North Sea](https://freesound.org/people/klankbeeld/sounds/393584/#).
+[qubodup](https://freesound.org/people/qubodup/). [Fire Magic](https://freesound.org/people/qubodup/sounds/442872/).
+[magnuswaker](https://freesound.org/people/magnuswaker/). [Concrete SMASH 2](https://freesound.org/people/magnuswaker/sounds/522099/).
+[plagasul](https://freesound.org/people/plagasul/). [maxxbasswind.wav](https://freesound.org/people/plagasul/sounds/611/).

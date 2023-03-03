@@ -2,7 +2,7 @@ html {
   margin: 5px;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   vertical-align: baseline;
 }
 /* display: inline-block; 
@@ -16,16 +16,26 @@ body {
   background-size: 100% 100%;
 }
 
-h1,
-h2 {
+h1 {
   box-sizing: border-box;
   font-family: 'Balthazar', serif;
-  size: 1rem;
+  font-size: 3.8rem;
   margin: 1px;
 }
 
+h2 {
+  box-sizing: border-box;
+  font-family: 'Balthazar', serif;
+  font-size: 2.5rem;
+  margin: 0.3rem;
+}
+
 .introduction {
-  font-size: 1.1rem;
+  font-size: 1.9rem;
+}
+
+.introductionText {
+  margin-top: 0.66rem;
 }
 
 .damageTable {
@@ -37,26 +47,27 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10%;
+  gap: 7.5%;
 }
 
 .userHealthLevelCount {
-  color: red;
+  color: #8f229b;
 }
 .computerHealthLevelCount {
-  color: red;
-}
-
-.roundsRemainingCount {
-  color: blue;
+  color: #8f229b;
 }
 
 .callToAction {
-  margin: 0.5rem 0 0 0;
+  margin: 1.5rem 0 0 0;
+  font-size: 2.6rem;
 }
 
 .spellButtons {
-  margin: 0.7rem 0 1.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  margin: 1rem 0 1.1rem;
 }
 
 .waterButton,
@@ -64,8 +75,8 @@ h2 {
 .earthButton,
 .airButton {
   background-color: #a1b1bf;
-  border-radius: 4px;
-  font-size: 20px;
+  border-radius: 0.4rem;
+  font-size: 2.4rem;
 }
 .waterButton {
   color: blue;
@@ -85,25 +96,24 @@ h2 {
 
 .results {
   display: grid;
-  gap: 10px;
-  min-height: 70px;
+  min-height: 7rem;
 }
 
 .castResult {
-  animation: fadeIn 8s;
-  font-size: 1.3rem;
+  font-size: 2.4rem;
 }
 
 .damageResult {
-  font-size: 1.3rem;
+  font-size: 2.4rem;
+  font-style: italic;
 }
 
 .gameResult {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .playAgainButton {
-  border-radius: 15px;
-  font-size: 25px;
+  border-radius: 1.5rem;
+  font-size: 2.5rem;
 }

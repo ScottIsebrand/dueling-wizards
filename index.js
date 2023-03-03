@@ -36,9 +36,10 @@ spellButtons.forEach((button) => {
   button.addEventListener('click', playRound);
 });
 
-// Function for a round of the game; it is called each time user clicks a .selectSpell button except if roundsRemaining === 0.
+// Function for a round of the game; it is called each time user clicks a .selectSpell button, except if roundsRemaining === 0.
 function playRound(event) {
   const userSpell = event.target.textContent;
+  const userSpellColor = event.target.style.color;
 
   const arrayOfComputerSpells = ['Water', 'Fire', 'Earth', 'Air'];
   const randomNumber = Math.floor(Math.random() * 4);
@@ -49,6 +50,7 @@ function playRound(event) {
     castResult.innerHTML = `You cast an Elemental ${userSpell.toUpperCase()} spell! Osmanwic casts an Elemental ${computerSpell.toUpperCase()} spell!`;
   }
   displayCastResult();
+  console.dir(castResult);
 
   if (userSpell === 'Water') {
     waterAudio.play();
@@ -59,11 +61,10 @@ function playRound(event) {
   } else if (userSpell === 'Air') {
     airAudio.play();
   }
-
   // Conditional statements to decide winner of a round
   if (userSpell === computerSpell) {
     damageResult.textContent =
-      "Your spell and Osmanwic's are of the same Elemental class. They cancel each other out and neither of you are affected by them.";
+      "Your and Osmanwic's spells are of the same Element. They cancel each other out; neither of you are affected by them.";
     roundsRemaining--;
   } else if (
     (userSpell === 'Water' && computerSpell === 'Earth') ||
@@ -100,6 +101,17 @@ function playRound(event) {
     roundsRemaining--;
   }
 
+  if (userHealthLevel > computerHealthLevel) {
+    userHealthLevelCount.style.color = 'green';
+    computerHealthLevelCount.style.color = 'red';
+  } else if (userHealthLevel < computerHealthLevel) {
+    userHealthLevelCount.style.color = 'red';
+    computerHealthLevelCount.style.color = 'green';
+  } else if (userHealthLevel === computerHealthLevel) {
+    userHealthLevelCount.style.color = 'orange';
+    computerHealthLevelCount.style.color = 'orange';
+  }
+
   userHealthLevelCount.textContent = userHealthLevel;
   computerHealthLevelCount.textContent = computerHealthLevel;
   roundsRemainingCount.textContent = roundsRemaining;
@@ -109,8 +121,8 @@ function playRound(event) {
   // console.log(roundsRemaining);
 
   if (roundsRemaining === 0) {
-    castResult.textContent = '';
-    damageResult.textContent = '';
+    // castResult.textContent = '';
+    // damageResult.textContent = '';
 
     if (userHealthLevel > computerHealthLevel) {
       gameResult.textContent =

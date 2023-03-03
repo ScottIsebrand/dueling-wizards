@@ -95,8 +95,6 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 
 ### Code
 
-![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)
-
 - **Adding audio**: Chris Ferdinandi. "[How to play a sound with JavaScript](https://gomakethings.com/how-to-play-a-sound-with-javascript/)." Go Make Things (blog). Accessed March 2, 2023
 
 ![GeeksForGeeks](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)
