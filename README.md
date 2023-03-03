@@ -46,6 +46,7 @@ Game play is all within a single function. The Play Again button's event listene
 
 ## Enhancements Roadmap
 
+- [ ] Add a button the player can click to disable spell sound effects.
 - [ ] When the game ends, reduce opacity property of Spell Buttons to ~0.6 to show the buttons are disabled.
 - [ ] Add an alternative game-ends condition of when Player or Computer's Health Level is `<= 0`, and increase default Health Levels and default Rounds Remaining, so that Computer or Player death is possible, with the appropriate alternative gameResult text printed to the DOM.
 - [ ] Enhance the styling. Eg,
