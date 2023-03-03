@@ -42,7 +42,10 @@ Game play is all within a single function. The Play Again button's event listene
 
 ## Live Site
 
-![Dueling Wizards](https://scottisebrand.github.io/dueling-wizards/)
+[Dueling Wizards](https://scottisebrand.github.io/dueling-wizards/)
+
+test of HTML:
+<a href="https://scottisebrand.github.io/dueling-wizards/" target="_blank">Test of link</a>
 
 ## Installation Instructions
 
