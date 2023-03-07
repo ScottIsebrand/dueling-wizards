@@ -23,7 +23,7 @@ const playAgainButton = document.querySelector('.playAgain');
 
 document.querySelector('.playAgainButton').style.display = 'none';
 
-// Declare audio file
+// Declare audio files
 let waterAudio = new Audio(
   './393584__klankbeeld__wave-close-coast-small-001.wav'
 );
@@ -44,7 +44,7 @@ function playRound(event) {
   const randomNumber = Math.floor(Math.random() * 4);
   const computerSpell = arrayOfComputerSpells[randomNumber];
 
-  // Function that prints to the DOM the result of player choice and
+  // Function that prints to the DOM the result of player choice and computer choice
   function displayCastResult() {
     castResult.innerHTML = `You cast an Elemental ${userSpell.toUpperCase()} spell! Osmanwic casts an Elemental ${computerSpell.toUpperCase()} spell!`;
   }
