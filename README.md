@@ -87,7 +87,7 @@ Project Link: [https://github.com/ScottIsebrand/dueling-wizards](https://github.
 
 ### Audio
 
-**[Freesound.org](https://freesound.org/browse/) [![Creative Commons 4.0]](https://freesound.org/help/faq/#licenses)**
+**[Freesound.org](https://freesound.org/browse/) [[Creative Commons 4.0]](https://freesound.org/help/faq/#licenses)**
 
 - [klankbeeld](http://freesound.org/people/klankbeeld/). [beach North Sea](https://freesound.org/people/klankbeeld/sounds/393584/#).
 - [qubodup](https://freesound.org/people/qubodup/). [Fire Magic](https://freesound.org/people/qubodup/sounds/442872/).

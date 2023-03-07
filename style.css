@@ -43,6 +43,19 @@ h2 {
   /* float: ; */
 }
 
+.middlerow {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .muteButton {
+  position: fixed;
+  top: 33rem;
+  left: 7rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+} */
+
 .healthLevels {
   display: flex;
   flex-direction: row;
